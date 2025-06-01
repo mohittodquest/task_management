@@ -1,5 +1,12 @@
 @extends('layouts.app')
-
+<style>
+  tr.even-row > td {
+    background-color: #c2d9ff;
+  }
+  tr.odd-row > td {
+    background-color: #c2ffef;
+  }
+</style>
 @section('content')
 <div class="container">
     <h2>All Projects</h2>
